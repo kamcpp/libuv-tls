@@ -1,5 +1,3 @@
-# THIS REPOSITORY HAS BEEN MARKED AS DEPRECATED, FOR UPDATED WORK, PLEASE REFER sample/libuv-tls IN
-https://github.com/deleisha/evt-tls
 # libuv-tls
 Add SSL/TLS functionality on top of libuv using OpenSSL.
 
@@ -27,19 +25,6 @@ being exported by uv.h
 As of now, libuv-tls does not hide any symbols.
 
 Sample usage can be seen at ```test_tls.c``` and ```test_tls_client.c```
-
-
-### TEST:
-To test the echo server, generate the test cert and key using
-
-```make && ./echo```
-
-Now the echo server is compiled and started and we can start sending some data using
-
-```openssl s_client -connect address:8000 -nbio -state -msg -debug```
-
-
-where address is your ip address.
 
 ### CONTRIBUTING
 Clone/fork the library and play around and provide feedback/patches or anything for improvement.
