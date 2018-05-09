@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 
-#include "libuv/include/uv.h"
+#include <uv.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
